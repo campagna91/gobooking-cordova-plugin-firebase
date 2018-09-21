@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnesson/gobooking-cordova-plugin-firebase"
+    "url": "https://github.com/campagna91/gobooking-cordova-plugin-firebase/tree/2.0.12"
   },
   "name": "gobooking-cordova-plugin-firebase",
   "version": "2.0.12",
