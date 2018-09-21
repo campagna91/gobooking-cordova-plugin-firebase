@@ -43,7 +43,7 @@ This version has been deprecated due to complications with PR <a href="https://g
 
 To force cordova to use this version, add the following to your project's config.xml:
 ```
-<plugin name="cordova-plugin-firebase" spec="1.0.5" />
+<plugin name="gobooking-cordova-plugin-firebase" spec="1.0.5" />
 ```
 or by running:
 ```

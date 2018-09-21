@@ -11,7 +11,7 @@ This plugin brings push notifications, analytics, event tracking, crash reportin
 ## Installation
 Install the plugin by adding it to your project's config.xml:
 ```
-<plugin name="cordova-plugin-firebase" spec="^2.0.0" />
+<plugin name="gobooking-cordova-plugin-firebase" spec="^2.0.0" />
 ```
 or by running:
 ```

@@ -1,18 +1,15 @@
 {
-  "name": "plugins",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Robert Arnesson"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "gobooking-plugin-firebase": "file:gobooking-plugin-firebase"
-  }
-}
-App",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnesson/gobooking-cordova-plugin-firebase"
+  },
+  "name": "gobooking-cordova-plugin-firebase",
+  "version": "2.0.12",
+  "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "gobooking-cordova-plugin-firebase",
     "platforms": [
@@ -21,7 +18,16 @@ App",
       "browser"
     ]
   },
-  "keywords": [],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "firebase",
+    "push",
+    "notifications",
+    "phone auth"
+  ],
   "scripts": {
     "version": "node ./bump-version.js && git add -A plugin.xml",
     "postversion": "git push && git push --tags && npm publish --verbose",

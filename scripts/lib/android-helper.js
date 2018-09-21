@@ -23,9 +23,10 @@ function addDependencies(buildGradle) {
   var whitespace = match[1];
   
   // modify the line to add the necessary dependencies
-  var googlePlayDependency = whitespace + 'classpath \'com.google.gms:google-services:4.1.0\' // google-services dependency from cordova-plugin-firebase';
+  var googlePlayDependency = whitespace + 'classpath \'com.google.gms:google-services:+\' // google-services dependency from cordova-plugin-firebase';
   var fabricDependency = whitespace + 'classpath \'io.fabric.tools:gradle:1.25.4\' // fabric dependency from cordova-plugin-firebase'
-  var modifiedLine = match[0] + '\n' + googlePlayDependency + '\n' + fabricDependency;
+  var androidBuildToolDependency = whitespace + 'classpath \'com.android.tools.build:gradle:3.0.1\' // google-services dependency from cordova-plugin-firebase';
+  var modifiedLine = match[0] + '\n' + googlePlayDependency + '\n' + fabricDependency + '\n' + androidBuildToolDependency;
   
   // modify the actual line
   return buildGradle.replace(/^(\s*)classpath 'com.android.tools.build(.*)/m, modifiedLine);
