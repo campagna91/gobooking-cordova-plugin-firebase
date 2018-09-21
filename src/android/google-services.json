@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "265828617502",
+    "firebase_url": "https://gobooking-9b410.firebaseio.com",
+    "project_id": "gobooking-9b410",
+    "storage_bucket": "gobooking-9b410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265828617502:android:9e93ab6762eebfb8",
+        "android_client_info": {
+          "package_name": "com.bossitalia.gobooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265828617502-lcs7hjheh0b3o1rc1ucckl1p694thfln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bossitalia.gobooking",
+            "certificate_hash": "d5c2785757c3dfffe107dad92061e95ef104c1a0"
+          }
+        },
+        {
+          "client_id": "265828617502-eq31fb6ft4m3p75tjm38k5mo29ka9qh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "1:265828617502:android:9e93ab6762eebfb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265828617502-3j3regsfjj4dn3qhcs9ib8vff9tgakqm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bossitalia.gobooking"
+              }
+            },
+            {
+              "client_id": "265828617502-eq31fb6ft4m3p75tjm38k5mo29ka9qh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
