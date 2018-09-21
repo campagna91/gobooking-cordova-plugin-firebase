@@ -5,10 +5,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/campagna91/gobooking-cordova-plugin-firebase/tree/2.0.13"
+    "url": "https://github.com/campagna91/gobooking-cordova-plugin-firebase/tree/2.0.14"
   },
   "name": "gobooking-cordova-plugin-firebase",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "gobooking-cordova-plugin-firebase",
