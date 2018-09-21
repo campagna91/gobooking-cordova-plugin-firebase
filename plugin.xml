@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Note: GoBooking firebase plugin start from version 2.0.2 of cordova.plugin.firebase -->
 <!-- Note: Currently plugin version will be grow at each update -->
-<plugin id="gobooking-cordova-plugin-firebase" version="2.0.12" 
+<plugin id="gobooking-cordova-plugin-firebase" version="2.0.13" 
   xmlns="http://apache.org/cordova/ns/plugins/1.0" 
   xmlns:android="http://schemas.android.com/apk/res/android">
   <name>Gobooking Cordova Plugin Firebase</name>
