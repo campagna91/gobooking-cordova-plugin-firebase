@@ -30,3 +30,4 @@ module.exports = function(context) {
         iosHelper.addShellScriptBuildPhase(context, xcodeProjectPath);
     }
 };
+ 
